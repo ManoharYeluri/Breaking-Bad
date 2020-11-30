@@ -1,3 +1,29 @@
+.logo{
+    background-image: url("./img/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30vmin;
+    height: 20vmin;
+    min-height: 100px;
+    min-width: 150px;
+    margin: 10px auto;
+}
+
 .text-center {
     text-align: center;
+}
+
+main {
+    color: white;
+}
+
+.grid-div {
+    width: 70vw;
+    margin: auto;
+}
+
+@media only screen and (max-width: 700px){
+    .grid-div {
+        width: 90vw;
+    }
 }

@@ -1,0 +1,11 @@
+.spinner {
+    display: flex;
+    justify-content: center;
+}
+
+.just-for-height{
+    height: 70vh;
+    width: 75vw;
+    margin: auto;
+    background-color: transparent;
+}
